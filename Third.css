@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEDFA; /* Можна змінити фон на бажання */
+    margin: 0;
+    padding: 0;
+}
+
+.vitau {
+    position: absolute;
+    top: 124px;
+    left: 69px;
+    width: 273px;
+    height: 88px;
+}
+
+.cat {
+    position: absolute;
+    top: 194px;
+    left: -5px;
+    width: 440px;
+    height: 440px;
+}
+
+.kohau {
+    position: absolute;
+    top: 651px;
+    left: 69px;
+    width: 273px;
+    height: 88px;
+}

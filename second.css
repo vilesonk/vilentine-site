@@ -1,0 +1,64 @@
+/* Загальний стиль для другої сторінки */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEDFA; /* Можна змінити фон на бажання */
+    margin: 0;
+    padding: 0;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+/* Стиль для тексту на другій сторінці */
+.greeting {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.rectangle2 {
+    position: absolute;
+    top: 168px;
+    left: 69px;
+    width: 273px;
+    height: 88;
+}
+/* Контейнер для подарунка */
+.gift-container {
+    margin-bottom: 20px;
+}
+
+/* Зображення подарунка */
+.gift-image {
+    width: 200px; /* Можна налаштувати під розмір зображення */
+    height: auto;
+}
+
+/* Стиль для питання під подарунком */
+.question {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Кнопка для переходу на наступну сторінку */
+.open-button {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #C738BD; /* Можна вибрати інший колір */
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.open-button:hover {
+    background-color: #E26EE5; /* Колір для ефекту при наведенні */
+}

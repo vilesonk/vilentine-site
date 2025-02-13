@@ -1,0 +1,81 @@
+/* Загальні стилі для всього тіла */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFEDFA; /* М'який фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+/* Кожне сердечко отримує певну позицію */
+.heart1
+{
+    position: absolute;
+    top: 203px;
+    left: 177px;
+}
+
+.heart2 {
+    position: absolute;
+    top: -10px;
+    left: -9px;
+}
+
+.heart3 {
+    position: absolute;
+    top: 112px;
+    left: 302px;
+}
+
+.heart4 {
+    position: absolute;
+    top: 226px;
+    left: -14px;
+}
+
+.heart5 {
+    position: absolute;
+    top: 40px;
+    left: 151px;
+}
+
+.heart6 {
+    position: absolute;
+    top: 0px;
+    left: 313px;
+}
+
+.heart7 {
+    position: absolute;
+    top: 139px;
+    left: 85px;
+}
+
+/* Загальні стилі для сердечок */
+
+
+/* Стилі для прямокутника з текстом */
+.rectangle {
+    position: absolute;
+    top: 415px;
+    left: 64px;
+    width: 273px;
+    height: 88;
+}
+.text {
+    position: absolute;
+    text-align: center;
+    left: 165px;
+    top: 528px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
